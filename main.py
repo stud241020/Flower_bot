@@ -10,9 +10,9 @@ import re
 
 
 phone_number = re.compile("((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}")
-bot = telebot.TeleBot('5103031753:AAG3NVWdGhPp16SdIA7u0o6fp-mG1tbhc2Y')  # Инициализируем бота токеном,
+bot = telebot.TeleBot('')  # Инициализируем бота токеном,
                                                                          # выданным @BotFather
-provider_token = "401643678:TEST:da529bb5-30cf-4c0e-9d3b-081e68118fd7"  # Токен для оплаты, выдает @BotFather
+provider_token = ""  # Токен для оплаты, выдает @BotFather
 cart_tags = ['\U0001F6D2 Корзина', 'Корзина', 'корзина', 'заказ']  # Команды корзины
 cancel_tokens = ['отмена']
 
