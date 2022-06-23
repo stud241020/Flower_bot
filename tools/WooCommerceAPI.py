@@ -8,9 +8,9 @@ class WC_API:
 
     def __init__(self):
         self.wcapi = API(
-            url="http://f0662973.xsph.ru",
-            consumer_key="ck_057f371b5c137978d2b97b5b9376301dd58eab2b", #ck_0f6921e5db31f9d0cab77a32e9f63d9ca6aae0f8
-            consumer_secret="cs_3582e594e8e224de7fbd9cbd08eb995ba9857659", #cs_a0b4efc6302fe2ed61c928591033f4a1868770fb
+            url="https://wp-flowers.ru/",
+            consumer_key="", 
+            consumer_secret="", 
             timeout=50,
             verify_ssl=False
         )
